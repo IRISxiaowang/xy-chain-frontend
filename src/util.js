@@ -59,6 +59,10 @@ export function fromDollar(input) {
     return input * 1000000000000
 }
 
+export function toDay(input) {
+    return input * 1.0 / (10 * 60 * 24)
+}
+
 export async function sleep(ms) {  
     return new Promise(resolve => setTimeout(resolve, ms));  
  } 
