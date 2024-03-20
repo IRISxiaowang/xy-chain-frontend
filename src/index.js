@@ -1,3 +1,9 @@
-import * as test from './test.js';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-await test.testAll();
+import App from './App'
+
+ReactDOM.render(
+    <App />,
+  document.getElementById('root')
+)

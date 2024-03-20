@@ -1,0 +1,40 @@
+body {
+  background:black;
+  padding: 0 16px;
+}
+h1 {
+  text-align: center; 
+}
+#root {
+  color: whitesmoke;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px; 
+  height: 500px; 
+}
+.dropdown{
+  position: absolute; 
+  right:100px; 
+}
+
+.block-info {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 20%;
+}
+.block-label {
+  margin: 0;
+  margin-right: 15px;
+  color: #333;
+  font-size: 16px;
+}
+.block-number {
+  color: #333;
+}

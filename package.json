@@ -1,8 +1,31 @@
 {
-  "type": "module",
-  "name": "frontend",
-  "packageManager": "yarn@4.0.2",
+  "name": "xy-chain-front-end",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
-    "@polkadot/api": "^10.12.1"
+    "@polkadot/api": "^10.12.1",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5"
+  },
+  "packageManager": "yarn@4.0.2",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
