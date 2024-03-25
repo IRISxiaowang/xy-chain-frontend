@@ -1,3 +1,3 @@
 # frontend
-![Alt text](.public/frontend.png)
+![Alt text](/public/frontend.png)
 
