@@ -1,25 +1,62 @@
 body {
-  background:black;
+  background: black;
   padding: 0 16px;
 }
-h1 {
-  text-align: center; 
+
+h3 {
+  text-align: center;
+  font-family: "McLaren", cursive;
 }
+
 #root {
   color: whitesmoke;
-  font-family: "McLaren", cursive;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
 }
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px; 
-  height: 500px; 
+  width: 200px;
+  height: 200px;
 }
-.dropdown{
-  position: absolute; 
-  right:100px; 
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.extrinsic-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(250, 249, 249);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #34b7e2;
 }
 
 .block-info {
@@ -29,12 +66,28 @@ img {
   margin: 10px 0;
   width: 20%;
 }
+
 .block-label {
   margin: 0;
   margin-right: 15px;
   color: #333;
   font-size: 16px;
 }
+
 .block-number {
   color: #333;
+}
+
+.bottom-container {
+  text-align: center;
+  padding: 50px 0px 40px;
+}
+a {
+  color: #b4b6b6;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover {
+  color: #EAF6F6;
 }
